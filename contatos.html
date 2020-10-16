@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Contato - Tche Games Switch</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+
+    <script>
+       let emailNewsletter = prompt("Deixe aqui o seu email para saber em primeira mão sobre os últimos lançamentos disponíveis em nossa loja!")
+       
+       if (emailNewsletter != "" && emailNewsletter != null) {
+            alert("Cadastro de email efetuado com sucesso. Obrigado!")
+        }              
+    </script>
+
+</head>
+
+
+<body>
+
+    <header>
+        <nav>
+            <ul id="menuSuperior">
+                <li id="menuSuperior"><a href="index.html"><img src="./img/logos/TGW_Logo.png" alt="Tche Games Switch Logo" width="250px"></a></li>
+                <li id="menuSuperior"></a><a href="produtos.html">Nossos produtos</a></li>
+                <li id="menuSuperior"><a href="lojas.html">Nossas lojas</a></li>
+                <li id="menuSuperior"><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>    
+    </header>
+    <br><br><br><br><br><br><br><br>
+
+    
+<main>
+
+    <h2>Nossos contatos</h2>   
+    
+    <hr width="50%">
+    <br>
+    
+    <p>Não hesite em nos Conctactar! Envie sua dúvida, elogio ou reclamação!</p>
+    <br>
+
+    <div>
+        <ul>
+            <li id="contatos">
+                <a href="mailto: atendimento@tchegames.com.br">
+                    <img src="./img/logos/Email_logo.jpg" alt="Email" width="100px"><br>
+                    atendimento@tchegames.com.br
+                </a>
+            </li>
+            <li id="contatos">
+                <a href="tel:0800-000000">
+                    <img src="./img/logos/Whats_logo.jpg" alt="Whats_logo" width="100px"><br>
+                    0800-000000
+                </a>
+            </li>
+            <li id="contatos">
+                <a href="#Chat">
+                    <img src="./img/logos/Teleatendimento_logo.jpg" alt="Chat" width="100px"><br>
+                    Atendimento por chat
+                </a>
+            </li>
+        </ul>
+    </div>    
+    <br>
+
+    <hr width="50%">
+    <br>
+  
+    Se preferir, envie-nos uma mensagem logo abaixo:
+    <br><br>
+
+    <form action="">
+        <h4>Seu nome:</h4>
+        <input type="text" style="width: 400px;">
+        <br><br>
+
+        <h4>Seu email:</h4>
+        <input type="text" style="width: 400px;">
+        <br><br>
+
+        <h4>Mensagem:</h4>
+        <textarea style="width: 400px; height: 400px;"></textarea><br>
+        <input type="submit" value="Enviar" onclick="alert('Email enviado com sucesso! Em breve responderemos!')">
+    </form>
+
+</main>
+
+
+<footer>
+    <br><br><br><br>
+    
+    <hr width="50%">
+    <br>
+
+    <h4>Formas de pagamento</h4>
+    
+    <img src="./img/logos/pagamentos_logo.png" alt="Formas de pagameno">
+    
+    <p>Tche Games Switch &reg; </p>
+    
+    <script>
+        let data = new Date();
+        let dataFormatada = ((data.getDate() )) + "/" + ((data.getMonth() + 1)) + "/" + data.getFullYear(); 
+        document.write(dataFormatada);            
+    </script>
+    
+    <br>
+</footer>
+
+</body>
+
+</html>
+
+

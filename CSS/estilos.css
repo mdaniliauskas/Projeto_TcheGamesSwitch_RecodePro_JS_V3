@@ -1,0 +1,117 @@
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    border: none;
+    padding: 0%;
+    margin-top: -0.5em;
+    left: 0%;
+    right: 0%;
+    margin-bottom: -1em;     
+}
+
+
+main {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px; 
+    text-align: center;   
+}
+
+
+footer {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: royalblue;
+    font-style: italic;
+}
+
+
+a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+}
+
+
+h30{
+    color: royalblue;
+}
+
+
+h3 {
+    color: red;
+}
+          
+
+li {
+    list-style: none;  
+}
+
+
+.listaProdutos {
+    padding: 30px 30px 30px 30px;
+    display: inline-table;    
+}
+
+.precoDesconto {
+    text-decoration: line-through;
+    font-size: 15px;
+}   
+
+
+.precoFinal {
+    color: red;
+}
+
+
+#contatos {
+    display: inline-table;
+    width: 30%;
+}
+
+#menuLateral {
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: royalblue;          
+}
+
+li#menuLateral:hover {
+    color: red;    
+    
+}
+
+#margemLateralProdutos {
+    margin-left: 10%;
+}
+
+ul#menuSuperior {
+    padding-left: 5px;
+}
+
+li#menuSuperior {
+    display: inline-table;
+    width: 20%;
+    vertical-align: middle;
+    float: inline-start;
+    text-align: center;    
+}
+
+#vitrineIndex {
+    display: inline-table;
+    width: 20%;
+    padding: 50px;    
+}
+
+
+
+
+
+
+
+
